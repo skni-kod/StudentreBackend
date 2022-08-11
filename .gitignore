@@ -356,3 +356,9 @@ ScaffoldExtra/
 *secret*
 
 .vscode
+StudentreBackend/docker-compose.dcproj
+StudentreBackend/docker-compose.override.yml
+StudentreBackend/docker-compose.yml
+StudentreBackend/StudentreBackend/Dockerfile
+StudentreBackend/StudentreBackend/Dockerfile.original
+StudentreBackend/StudentreBackend/Dockerfile1.original
