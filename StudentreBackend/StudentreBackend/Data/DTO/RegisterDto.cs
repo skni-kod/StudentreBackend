@@ -2,7 +2,7 @@
 using StudentreBackend.Data.Extensions;
 using System.ComponentModel.DataAnnotations;
 
-namespace StudentreBackend.DTO
+namespace StudentreBackend.Data.DTO
 {
     public class RegisterDto : IValidatableObject
     {
@@ -31,8 +31,6 @@ namespace StudentreBackend.DTO
                 v.RuleFor(x => x.Email).EmailAddress().WithMessage("[[[Incorrect email address]]]");
                 v.RuleFor(x => x.Collage).NotEmpty().WithMessage("[[[Collage is required]]]");
                 v.RuleFor(x => x.StudentId).NotEmpty().WithMessage("[[[Student identifier is required]]]");
-
-
             })
             .Validate(this)
             .Result();

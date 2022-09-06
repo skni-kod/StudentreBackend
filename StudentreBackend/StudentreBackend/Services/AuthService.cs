@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
-using StudentreBackend.DTO;
+using StudentreBackend.Data.DTO;
 using StudentreBackend.Data;
 using StudentreBackend.Data.Extensions;
 using StudentreBackend.Data.Models;

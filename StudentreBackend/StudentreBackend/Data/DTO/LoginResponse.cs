@@ -1,4 +1,4 @@
-namespace StudentreBackend.DTO
+namespace StudentreBackend.Data.DTO
 {
     public class LoginResponse
     {

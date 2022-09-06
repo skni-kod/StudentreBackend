@@ -1,5 +1,5 @@
 ﻿using StudentreBackend.Data.Models;
-using StudentreBackend.DTO;
+using StudentreBackend.Data.DTO;
 
 namespace StudentreBackend.Services.Interfaces
 {

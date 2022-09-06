@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using StudentreBackend.DTO;
+using StudentreBackend.Data.DTO;
 using StudentreBackend.Services;
 using StudentreBackend.Services.Interfaces;
 

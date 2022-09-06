@@ -2,7 +2,7 @@
 using StudentreBackend.Data.Extensions;
 using System.ComponentModel.DataAnnotations;
 
-namespace StudentreBackend.DTO
+namespace StudentreBackend.Data.DTO
 {
     public class LoginDto : IValidatableObject
     {
